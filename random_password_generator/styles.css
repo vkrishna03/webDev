@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+body{
+    color: white;
+    background-color: #41b3a3;
+
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 600px;
+}
+.card{
+    width: 1 rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 9px;
+}
+
+.project-name{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.subtitle{
+    font-weight: 800;
+    font-size: 16px;
+    color: #17252a;
+}
+
+.text-box{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.btn{
+    color: #333;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+    background-color: bisque;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 2px;
+    cursor: pointer;
+}
